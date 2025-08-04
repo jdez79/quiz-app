@@ -1,0 +1,65 @@
+/* Page layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d58282;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main quiz box */
+  .quiz-container {
+    background-color: rgb(120, 153, 208);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Answer buttons grid */
+  .btn-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* General button styles */
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  button:hover:not(:disabled) {
+    opacity: 0.9;
+  }
+  
+  /* Blue button for "Next" and "Restart" */
+  .next-btn {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Correct answer styling */
+  .correct {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  /* Incorrect answer styling */
+  .wrong {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Hide elements */
+  .hide {
+    display: none;
+  }
